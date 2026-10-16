@@ -1,6 +1,6 @@
-#include<iostream>
-using namespace std;
-
+// 学习主题：2.3.1_SinglyLinkedList_Definition
+#include <iostream> // 标准输入输出：cin、cout
+using namespace std; // 使用标准库名称
 struct LNode {
     int data; // 数据域：保存元素值
     LNode *next; // 后继指针：保存下一个结点的地址

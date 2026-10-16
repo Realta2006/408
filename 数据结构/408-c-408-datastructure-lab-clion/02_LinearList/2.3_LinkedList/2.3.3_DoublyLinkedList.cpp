@@ -1,7 +1,7 @@
-#include <iostream>
-#include <cstdlib>
-using namespace std;
-
+// 学习主题：2.3.3_DoublyLinkedList
+#include <iostream> // 标准输入输出：cin、cout
+#include <cstdlib> // malloc、free；使用时与 new、delete 区分
+using namespace std; // 使用标准库名称
 using ElemType = int; // 元素类型，本节使用整数
 
 struct DNode {

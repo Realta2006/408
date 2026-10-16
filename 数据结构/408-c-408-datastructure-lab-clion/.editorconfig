@@ -1,0 +1,31 @@
+root = true
+
+# C/C++：统一四空格缩进，格式化时补齐运算符和逗号的空格。
+[*.{c,cc,cpp,cxx,h,hpp}]
+indent_style = space
+indent_size = 4
+tab_width = 4
+
+# CLion Nova（ReSharper）格式规则
+cpp_indent_style = space
+cpp_indent_size = 4
+space_around_assignment_operator = true
+space_around_binary_operator = true
+space_after_comma = true
+space_after_comma_in_method = true
+space_after_comma_in_method_call = true
+space_after_comma_in_initializer_braces = true
+space_after_semicolon_in_for_statement = true
+space_after_keywords_in_control_flow_statements = true
+
+# 兼容 CLion 经典格式化引擎
+ij_cpp_space_around_assignment_operators = true
+ij_cpp_space_around_logical_operators = true
+ij_cpp_space_around_equality_operators = true
+ij_cpp_space_around_relational_operators = true
+ij_cpp_space_around_additive_operators = true
+ij_cpp_space_around_multiplicative_operators = true
+ij_cpp_space_after_comma = true
+ij_cpp_space_before_if_parentheses = true
+ij_cpp_space_before_for_parentheses = true
+ij_cpp_space_before_while_parentheses = true
